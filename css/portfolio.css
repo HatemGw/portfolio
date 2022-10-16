@@ -213,17 +213,22 @@ ul {
 }
 
 .name .container .image-holder {
-    border: 5px solid var(--main-color);
+    border: 1px solid var(--main-color);
     border-radius: 50%;
     overflow: hidden;
 }
 
 .name .container img {
+    transform:translatey(10px);
     transition: 0.5s;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
+    -webkit-transform:translatey(10px);
+    -moz-transform:translatey(10px);
+    -ms-transform:translatey(10px);
+    -o-transform:translatey(10px);
 }
 
 .name .container img:hover {
